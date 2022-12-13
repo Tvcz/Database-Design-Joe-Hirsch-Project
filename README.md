@@ -100,3 +100,70 @@ The make appointment route uses the `POST` method and takes a haircut type id, h
 
 The purchases route uses the `GET` method and returns a list of the purchases of the given customer.
 
+
+
+## AppSmith App Organization
+
+The frontend for the app, created on AppSmith, has a total of 14 distinct pages, shown below.
+
+#### Login Page
+
+![image](https://user-images.githubusercontent.com/46767048/207463740-6425ecde-6562-4db3-a2bc-5c160760ddcb.png)
+
+### Manager Pages
+
+#### Manager Home Page
+
+![image](https://user-images.githubusercontent.com/46767048/207463794-7c5b380b-0659-4cb1-bd78-7c6cac2b57cf.png)
+
+#### Manager Inventory View
+
+![image](https://user-images.githubusercontent.com/46767048/207463840-99c236ec-1a19-41ef-8c72-84b3b70c0485.png)
+
+#### Manager Haircutters View
+
+![image](https://user-images.githubusercontent.com/46767048/207463880-c9e812cb-096b-45ff-8738-2e943cef9b19.png)
+
+#### Manager Haircut Types View
+
+![image](https://user-images.githubusercontent.com/46767048/207463925-4be17655-824a-4822-8bbb-05b554df8723.png)
+
+#### Manager Availabilities View
+
+![image](https://user-images.githubusercontent.com/46767048/207463975-a279d3a5-1148-4c4a-add2-b9b3b2654e37.png)
+
+#### Manager Appointments View
+
+![image](https://user-images.githubusercontent.com/46767048/207464033-a1f821de-27cc-4ad1-a408-bf9c676db8f2.png)
+
+### Haircutter Pages
+
+#### Haircutter Home Page
+
+![image](https://user-images.githubusercontent.com/46767048/207464156-a1cd8abc-b522-4d93-a572-a198c0998e30.png)
+
+#### Haircutter Specialties View
+
+![image](https://user-images.githubusercontent.com/46767048/207464203-018bb35f-aef4-4247-a87d-36b5f97b0234.png)
+
+#### Haircutter Availability View
+
+![image](https://user-images.githubusercontent.com/46767048/207464262-365141f3-ee5f-49bb-8d70-f3659500f8a0.png)
+
+#### Haircutter Appointments View
+
+![image](https://user-images.githubusercontent.com/46767048/207464310-24e8ac41-c109-43e9-b3d7-6473a3fd40b0.png)
+
+### Customer Pages
+
+#### Customer Home Page
+
+![image](https://user-images.githubusercontent.com/46767048/207464420-cf8dfa11-da0c-4001-a569-104253faaefc.png)
+
+#### Customer Appointments Page
+
+![image](https://user-images.githubusercontent.com/46767048/207464464-e58d7af0-d6d7-40d0-8a52-846f4e6a2397.png)
+
+#### Customer Store Page
+
+![image](https://user-images.githubusercontent.com/46767048/207464584-4d6a6801-f463-430a-8f7d-4058ba214b7d.png)
