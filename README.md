@@ -52,7 +52,7 @@ The availabilities route uses the `GET` method and returns the availabilities of
 
 #### `/appointments`
 
-The appointments route uses the `GET method and returns all existing appointments.
+The appointments route uses the `GET` method and returns all existing appointments.
 
 
 ### Haircutters
