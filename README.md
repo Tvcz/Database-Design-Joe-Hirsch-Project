@@ -16,7 +16,7 @@ The Flask code is organized into blueprints containing the routes for various fu
 
 The `auth` blueprint contains the functionality related to authentication, which in this case is only one route, `/login`.
 
-#### `/login`
+##### `/login`
 
 
 The login route uses the `POST` method and takes a user email and password in the body of the request, which it authenticate the user and return the user id and role (`manager`, `haircutter`, `customer`). 
@@ -25,7 +25,7 @@ The login route uses the `POST` method and takes a user email and password in th
 
 The `store` blueprint contains the functionality related to the use of the barbershop store.
 
-#### `/inventory`
+##### `/inventory`
 
 The inventory route uses the `GET` method and returns a list of all the invenory items and their relevant details.
 
@@ -34,23 +34,23 @@ The inventory route uses the `GET` method and returns a list of all the invenory
 
 The `managers` blueprint contains the functionality related to usage of the web app by a user with the `manager` role.
 
-#### `/manager/<manager_id>`
+##### `/manager/<manager_id>`
 
 The manager route uses the `GET` method and returns the profile information for the given manager.
 
-#### `/manager/<manager_id>/haircutters`
+##### `/manager/<manager_id>/haircutters`
 
 The haircutters route uses the `GET` method and returns the haircutters which are managed by the given manager.
 
-#### `/haircut_types`
+##### `/haircut_types`
 
 The haircut types route uses the `GET` method and returns all the different haircut types that exist.
 
-#### `/availabilities`
+##### `/availabilities`
 
 The availabilities route uses the `GET` method and returns the availabilities of all haircutters.
 
-#### `/appointments`
+##### `/appointments`
 
 The appointments route uses the `GET` method and returns all existing appointments.
 
@@ -59,23 +59,23 @@ The appointments route uses the `GET` method and returns all existing appointmen
 
 The `haircutters` blueprint contains the functionality related to usage of the web app by a user with the `haircutter` role.
 
-#### `/haircutters`
+##### `/haircutters`
 
 The haircutters route uses the `GET` method and returns a list of all existing haircutters.
 
-#### `/haircutter/<haircutter_id>`
+##### `/haircutter/<haircutter_id>`
 
 The haircutter route uses the `GET` method and returns the profile information for the given manager.
 
-#### `/haircutter/<haircutter_id>/specialties`
+##### `/haircutter/<haircutter_id>/specialties`
 
 The specialties route uses the `GET` method and returns the specialties of the given haircutters (what haircut types they can do).
 
-#### `/haircutter/<haircutter_id>/availability`
+##### `/haircutter/<haircutter_id>/availability`
 
 The availability route uses the `GET` method and returns the availability of a given haircutter.
 
-#### `/haircutter/<haircutter_id>/appointments`
+##### `/haircutter/<haircutter_id>/appointments`
 
 The appointments route uses the `GET` method and returns the appointments of a given haircutter.
 
@@ -84,19 +84,19 @@ The appointments route uses the `GET` method and returns the appointments of a g
 
 The `customers` blueprint contains the functionality related to usage of the web app by a user with the `customer` role.
 
-#### `/customer/<customer_id>`
+##### `/customer/<customer_id>`
 
 The customer route uses the `GET` method and returns the profile information for the given customer.
 
-#### `/customer/<customer_id>/appointments`
+##### `/customer/<customer_id>/appointments`
 
 The appointments route uses the `GET` method and returns the appointments of the given customer.
 
-#### `/customer/<customer_id>/make_appointment`
+##### `/customer/<customer_id>/make_appointment`
 
 The make appointment route uses the `POST` method and takes a haircut type id, haircutter id, start time, and end time in the body of the request, which it uses to attempt to schedule an appointment and return the status of the appointment creation.
 
-#### `/customer/<customer_id>/purchases`
+##### `/customer/<customer_id>/purchases`
 
 The purchases route uses the `GET` method and returns a list of the purchases of the given customer.
 
