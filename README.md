@@ -6,6 +6,8 @@ It includes a total of 16 routes in 5 Flask blueprints, 14 routes of which use `
 
 The frontend for the app exists on AppSmith and can be accessed [here](https://appsmith.cs3200.net/app/haircutify/login-639360725bc9880dbcb21433).
 
+The video demoing the app and reviewing the routes can be watched [here](https://www.youtube.com/watch?v=waOKsp82ITI).
+
 Created by Joseph Hirsch (hirsch.jos@northeastern.edu).
 
 
