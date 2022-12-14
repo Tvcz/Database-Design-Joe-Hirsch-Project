@@ -79,7 +79,7 @@ def make_appointment(customer_id):
             400,
         )
 
-    # check if haircut type is available
+    # check if haircutter has specialty in that type
     cursor.execute(
         "SELECT * FROM specialties WHERE haircut_type_id = %s AND haircutter_id = %s",
         (data["haircut_type_id"], data["haircutter_id"]),
